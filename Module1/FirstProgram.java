@@ -6,13 +6,17 @@
 
 */
 
-package Module1; // A package is used to group related classes. Think of it as a folder in your file system.
+// A package is used to group related classes. Think of it as a folder in your file system.
+package Module1;
 
-public class FirstProgram { // This the format for a class in java. All executable code goes in the class
+// This the format for a class in java. All executable code goes in the class
+public class FirstProgram {
 
-    public static void main(String[] args) { // This is known as your main method/function. When you run you program, it runs your main method
+    // This is known as your main method/function. When you run you program, it runs your main method
+    public static void main(String[] args) {
 
-        System.out.println("Hello World"); // This is a statement. A statement is an instruction that causes the program to perform an action
+        // This is a statement. A statement is an instruction that causes the program to perform an action
+        System.out.println("Hello World");
         /*
             All statements end in a semicolon
             System.out.println(); is a statement that outputs whatever is in between the Parenthesis
